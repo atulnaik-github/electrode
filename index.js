@@ -144,3 +144,5 @@ window.addEventListener("click", function () {
 // signIn.addEventListener("click", function () {
 //   console.log("clicked");
 // });
+
+console.log("hi");
