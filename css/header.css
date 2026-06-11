@@ -1,0 +1,290 @@
+/* header section */
+header {
+  background-color: var(--bg-primary);
+  color: #fff;
+}
+
+/* .container {
+  max-width: 1380px;
+  margin-inline: auto;
+} */
+
+.header-top,
+.header,
+.header-bottom {
+  border-bottom: 1px solid #ffffff24;
+}
+
+.header-top {
+  padding: 0.7rem 0;
+}
+
+.header {
+  padding: 1rem 0;
+}
+
+.header-bottom {
+  padding: 0.3rem 0;
+}
+
+/* .header i {
+  font-size: 1.5rem;
+} */
+
+/* header top */
+.header-top .offer-text {
+  text-align: center;
+  line-height: 22px;
+  font-size: 0.95rem;
+}
+
+.top-nav {
+  display: none;
+}
+
+/* header */
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-text {
+  cursor: pointer;
+}
+
+.header-icons .account-text,
+.header-icons .wishlist-text,
+.header-icons .cart-text {
+  display: none;
+}
+
+.logo {
+  flex: 0 0 auto;
+}
+
+.logo h1 {
+  font-weight: 500;
+}
+
+.logo h1 a {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar input::placeholder {
+  font-size: 0.87rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.search-btn {
+  width: 60px;
+  border: none;
+  background-color: var(--bg-warning);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.profile-icon,
+.heart-icon,
+.cart-icon {
+  position: relative;
+}
+
+.profile-icon i,
+.heart-icon i,
+.cart-icon i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.heart-icon span,
+.cart-icon span {
+  font-size: 0.75rem;
+}
+
+.wishlist-counter,
+.cart-counter {
+  background-color: var(--bg-warning);
+  height: 1rem;
+  width: 1rem;
+  color: #000;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  left: 60%;
+  top: -30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header bottom */
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.mobile-header .menu-title {
+  text-transform: uppercase;
+}
+
+.mobile-header i {
+  font-size: 0.95rem;
+}
+
+.localization-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style-type: none;
+  position: relative;
+}
+
+.localization-menu li i {
+  font-size: 0.8rem;
+}
+
+.desktop-header {
+  display: none;
+}
+
+.hover-dropdown-menu {
+  position: relative;
+}
+
+.hover-dropdown-menu:hover > i {
+  transform: rotate(-180deg);
+}
+
+.hover-dropdown {
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: normal;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 100%;
+  width: 230px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  display: none;
+  z-index: 2;
+}
+
+.hover-dropdown li a {
+  text-decoration-line: none;
+  font-size: 0.95rem;
+  color: var(--dropdown-link-color);
+}
+
+.hover-dropdown li a:hover {
+  color: var(--text-primary);
+}
+
+.hover-dropdown li + li {
+  margin-top: 0.7rem;
+}
+
+.hover-dropdown-menu:hover .hover-dropdown {
+  display: block;
+}
+
+.hover-mega-dropdown-menu {
+  position: relative;
+}
+
+.hover-mega-dropdown {
+  background-color: #fff;
+  list-style-type: none;
+  padding-left: 0;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  gap: 3rem;
+  border-radius: 3px;
+  width: 550px;
+  position: absolute;
+  top: 100%;
+  padding: 1rem 2rem;
+  font-weight: normal;
+  z-index: 2;
+  display: none;
+}
+
+.hover-mega-dropdown-menu:hover .hover-mega-dropdown {
+  display: flex;
+}
+
+.hover-mega-dropdown-menu:hover > i {
+  transform: rotate(-180deg);
+}
+
+.mega-menu__list li a {
+  color: #1e1e1e;
+  text-decoration-line: none;
+}
+
+.mega-menu__list li a:hover {
+  color: var(--text-primary);
+}
+
+.list-unstyled {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-unstyled li {
+  margin-top: 0.75rem;
+}
+
+.list-unstyled li a {
+  color: #666666;
+  text-decoration-line: none;
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+
+.list-unstyled li a:hover {
+  color: var(--text-primary);
+}
+
+.currency-ddl {
+  top: 175%;
+  width: 170px;
+  right: 0;
+}
+
+.language-ddl {
+  top: 175%;
+  width: 120px;
+  right: 0;
+}
+
+.account-ddl {
+  top: 180%;
+  width: 120px;
+  right: 0;
+}

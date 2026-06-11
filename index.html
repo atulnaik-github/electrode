@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/gobal.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <script src="./index.js" defer></script>
+    <title>Electrode - Electronics Store</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="page-width">
+          <div class="container header-top-content">
+            <p class="offer-text">
+              Free delivery & 40% Discount for next 3 orders! place your 1st
+              order in.
+            </p>
+            <nav class="top-nav">
+              <ul class="top-links localization-menu">
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li class="currency-menu dropdown-menu">
+                  USD $ <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                  <ul class="currency-ddl dropdown">
+                    <li><a href="#">CAD $ | Canada</a></li>
+                    <li><a href="#">EUR $ | France</a></li>
+                    <li><a href="#">USD $ | United States</a></li>
+                  </ul>
+                </li>
+                <li class="language-menu dropdown-menu">
+                  English <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                  <ul class="language-ddl dropdown">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Francais</a></li>
+                    <li><a href="#">Espanol</a></li>
+                    <li><a href="#">Netherlands</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="page-width">
+          <div class="container header-content">
+            <div class="logo">
+              <h1><a href="./index.html">Electrode</a></h1>
+            </div>
+            <div class="header-icons">
+              <div class="sign-in dropdown-menu">
+                <div class="profile-icon">
+                  <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="account-text">
+                  <span>Sign In</span>
+                  <div class="account-menu">
+                    <p>Account</p>
+                    <ul class="account-ddl dropdown">
+                      <li><a href="./pages/signin.html">Sign In</a></li>
+                      <li><a href="#">Register</a></li>
+                      <li><a href="#">Compare (0)</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="wishlist-menu">
+                <a href="./pages/wishlist.html" class="wishlist">
+                  <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="wishlist-counter">2</span>
+                  </div>
+                  <div class="wishlist-text">
+                    <span>Recorder</span>
+                    <p>Wishlist</p>
+                  </div>
+                </a>
+              </div>
+              <div class="cart">
+                <div class="cart-icon">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <span class="cart-counter">5</span>
+                </div>
+                <div class="cart-text">
+                  <span>Items</span>
+                  <p>My Cart</p>
+                </div>
+              </div>
+            </div>
+            <div class="search-bar">
+              <input
+                id="search"
+                name="search"
+                type="text"
+                placeholder="Search for Products, Brands and More"
+              />
+              <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="page-width">
+          <div class="container header-bottom-content">
+            <!-- desktop header -->
+            <div class="desktop-header">
+              <div class="shop-by-category category-dropdown-menu">
+                <i class="fa-solid fa-table-cells-large"></i>&nbsp;
+                <p class="open-shop-by-category">
+                  Shop By Categories &nbsp;
+                  <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                </p>
+                <ul class="category-dropdown">
+                  <li class="our-store">
+                    <a href="#">Our Store </a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <ul class="our-store-inner-menu" role="list">
+                      <li>
+                        <a
+                          href="#"
+                          class="mega-menu__link mega-menu__link--level-2 link"
+                        >
+                          Sound &amp; Audio
+                        </a>
+                        <ul class="list-unstyled" role="list">
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Smart Speaker
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Home Theatre
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Party Speakers
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Televisions
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="mega-menu__link mega-menu__link--level-2 link"
+                        >
+                          Digital Camera
+                        </a>
+                        <ul class="list-unstyled" role="list">
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Backup camera
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Smart Cameras
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              IP camera
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Movie camera
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="mega-menu__link mega-menu__link--level-2 link"
+                        >
+                          Smart Watch
+                        </a>
+                        <ul class="list-unstyled" role="list">
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Digital Watches
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Basic Watches
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Feature watches
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu__link link">
+                              Apple Watches
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Audio Accessories</a></li>
+                  <li><a href="#">USB Type Cable</a></li>
+                  <li><a href="#">Pro Air Pods</a></li>
+                  <li class="headphones">
+                    <a href="#">Headphones</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <ul class="headphones-inner-menu">
+                      <li><a href="#">Gaming Headset</a></li>
+                      <li><a href="#">Audio Accessories</a></li>
+                      <li><a href="#">USB Type Cable</a></li>
+                      <li><a href="#">USB-C Charger</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Laptop & Computer</a></li>
+                  <li><a href="#">Macbook</a></li>
+                  <li><a href="#">Portable Laptops</a></li>
+                  <li><a href="#">Feature Phones</a></li>
+                  <!-- <li class="more-categories">
+                    <a href="#">More Categories</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </li> -->
+                </ul>
+              </div>
+              <div class="nav-bar">
+                <nav class="nav-links">
+                  <ul>
+                    <li>Home</li>
+                    <li class="hover-mega-dropdown-menu">
+                      Shop <i class="fa-solid fa-angle-down"></i>
+                      <ul
+                        class="mega-menu__list hover-mega-dropdown"
+                        role="list"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                            class="mega-menu__link mega-menu__link--level-2 link"
+                          >
+                            Sound &amp; Audio
+                          </a>
+                          <ul class="list-unstyled" role="list">
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Smart Speaker
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Home Theatre
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Party Speakers
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Televisions
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            class="mega-menu__link mega-menu__link--level-2 link"
+                          >
+                            Digital Camera
+                          </a>
+                          <ul class="list-unstyled" role="list">
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Backup camera
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Smart Cameras
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                IP camera
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Movie camera
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            class="mega-menu__link mega-menu__link--level-2 link"
+                          >
+                            Smart Watch
+                          </a>
+                          <ul class="list-unstyled" role="list">
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Digital Watches
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Basic Watches
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Feature watches
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="mega-menu__link link">
+                                Apple Watches
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>Collections</li>
+                    <li class="hover-dropdown-menu">
+                      Headphones <i class="fa-solid fa-angle-down"></i>
+                      <ul class="hover-dropdown">
+                        <li><a href="#">Gaming Headset</a></li>
+                        <li><a href="#">Audio Accessories</a></li>
+                        <li><a href="#">USB Type Cable</a></li>
+                        <li><a href="#">USB-C Charger</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="./pages/contact.html">Contact</a></li>
+                    <li><a href="./pages/blogs.html">Blogs</a></li>
+                  </ul>
+                </nav>
+                <div class="todays-deal">
+                  <i class="fa-solid fa-tags"></i>
+                  <p>Today's Deal</p>
+                </div>
+              </div>
+            </div>
+            <!-- mobile header -->
+            <div class="mobile-header">
+              <div class="left-menu mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+                <span class="menu-title"> &nbsp; Menu</span>
+              </div>
+              <div class="localization localization-mobile">
+                <ul class="localization-menu">
+                  <li class="currency-menu dropdown-menu">
+                    USD $ <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                    <ul class="currency-ddl dropdown">
+                      <li><a href="#">CAD $ | Canada</a></li>
+                      <li><a href="#">EUR $ | France</a></li>
+                      <li><a href="#">USD $ | United States</a></li>
+                    </ul>
+                  </li>
+                  <li class="language-menu dropdown-menu">
+                    English <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                    <ul class="language-ddl dropdown">
+                      <li><a href="#">English</a></li>
+                      <li><a href="#">Francais</a></li>
+                      <li><a href="#">Espanol</a></li>
+                      <li><a href="#">Netherlands</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside class="mobile-toggle-menu">
+      <div class="sidebar-drawer">
+        <div class="sidebar-drawer-header">
+          <strong>MENU</strong>
+          <i class="fa-solid fa-xmark close-mobile-toggle-menu"></i>
+        </div>
+        <hr />
+        <div class="drawer-menu">
+          <ul class="top-menu item-menu">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#">Shop</a> <i class="fa-solid fa-arrow-right"></i>
+              <ul>
+                <li>Sound & Audio</li>
+                <li>Digital Camera</li>
+                <li>Smart Watch</li>
+              </ul>
+            </li>
+            <li><a href="#">Collections</a></li>
+            <li>
+              <a href="#">Headphones</a> <i class="fa-solid fa-arrow-right"></i>
+            </li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+          <hr />
+          <ul class="bottom-menu item-menu">
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Gift Cards</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <div class="sidebar-overlay"></div>
+    <!-- <main>
+      <div class="offer-section">
+        <div class="offer-slides">
+          <img src="./images/banner/slide-1.png" alt="slide 1" />
+        </div>
+        <div class="right-offers-part">
+          <div class="banner banner-1">
+            <img src="./images/banner/banner-1.png" alt="banner 1" />
+          </div>
+          <div class="banner banner-2">
+            <img src="./images/banner/banner-2.png" alt="banner 2" />
+          </div>
+          <div class="banner banner-3">
+            <img src="./images/banner/banner-3.png" alt="banner 3" />
+          </div>
+        </div>
+      </div>
+    </main> -->
+  </body>
+</html>
